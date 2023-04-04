@@ -30,7 +30,7 @@ public class MobileBankPostTest {
         .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data.id", equalTo("007"))
+                .body("data.id", equalTo("009"))
                 .body("data.name", equalTo("Vasya"))
                 .body("data.number", equalTo("332223332"))
                 .body("data.balance", equalTo("100500"))
